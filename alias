@@ -1,0 +1,7 @@
+pulseaudio -D
+alias inst="sudo pacman -S"
+alias search="pacman -Ss"
+alias high="sudo tee /sys/class/backlight/acpi_video0/brightness <<< 10"
+alias med="sudo tee /sys/class/backlight/acpi_video0/brightness <<< 5"
+alias low="sudo tee /sys/class/backlight/acpi_video0/brightness <<< 0"
+clear
